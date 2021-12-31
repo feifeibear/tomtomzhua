@@ -16,45 +16,10 @@ import nltk
 RES_DIR = "tomtom_data"
 
 
-def ranking_log_to_cities():
+def ranking_log_to_cities(file_name):
     r"""
     ranking log to city code
     """
-    
-    url = 'https://www.tomtom.com/en_gb/traffic-index/ranking/'
-    # html = urlopen(url).read()
-    
-    # print(raw)
-
-    r = requests.get(url)
-    soup = BeautifulSoup(r.text, "html.parser")
-    print(r.text)
-
-    raw = soup.find('div', class_="RankingTable__td RankingTable__td--city").text
-    badges = soup.body.find('div', attrs={'class': 'badges'})
-    for span in badges.span.find_all('span', recursive=False):
-        print(span.attrs['RankingTable__td RankingTable__td--city'])
-    print(raw)
-    exit(0)
-    # print(soup.find_all('a'))
-    for script in soup(["script", "style"]):
-        script.extract()
-    text = soup.get_text()
-
-    lines = (line for line in text.splitlines())
-
-    # # break multi-headlines into a line each
-    chunks = (phrase for line in lines for phrase in line.split("  "))
-    # # drop blank lines
-    # for chunk in chunks:
-    #     if chunk:
-    #         print(chunk)
-    text = ''.join(chunk or print('chunk ',chunk) for chunk in chunks if chunk)
-    # print(text)
-    with open("tmpfile.txt", 'w+') as tmp_file:
-        tmp_file.write(text)
-    
-    exit(0)
     with open(file_name, 'r+') as file:
         is_enter = False
         cnt = 0;
