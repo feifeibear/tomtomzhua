@@ -45,11 +45,15 @@ def ranking_log_to_cities(file_name):
         for elem in zip(city_name_list, country_name_list):
             # UAE is not support by the search_fuzzy function
             try:
-                ctry_code = pycountry.countries.search_fuzzy(elem[1]).alpha_3
+                ctry_code = pycountry.countries.lookup(elem[1]).alpha_3
             except:
                 # for UAE
-                ctry_code = elem[1].upper()
-            city_code_list.append(f'{ctry_code}_{elem[0]}')
+                if elem[1] == 'RUSSIA':
+                    ctry_code = 'RUS'
+                elif elem[1] == 'UAE':
+                    ctry_code = elem[1].upper()
+                print(f'wraning {ctry_code}')
+            city_code_list.append((f'{ctry_code}', f'{elem[0]}'))
         print(len(city_code_list))
         print(city_code_list)
         return city_code_list
@@ -61,7 +65,13 @@ def get_city_code(file):
     """
     df = pd.read_csv(file)
     print(df)
-    return df
+    city_array = df.to_numpy()
+    res_list = []
+    for line in city_array:
+        ccode = line[1]
+        city = line[2]
+        res_list.append((ccode, city))
+    return res_list
 
 def url_to_dataframe(ccode, city):
     base_url = f"https://api.midway.tomtom.com/ranking/dailyStats/{ccode}_{city}"
@@ -72,6 +82,7 @@ def url_to_dataframe(ccode, city):
     df = json_normalize(info)
     if len(df) < 5:
         print(f"{ccode} {city} failed")
+        raise RuntimeError
     return df
 
 if __name__ == "__main__":
@@ -79,13 +90,19 @@ if __name__ == "__main__":
         os.stat(RES_DIR)
     except:
         os.mkdir(RES_DIR)
-    # ranking_log_to_cities('./config/log')
-    
-    city_df = get_city_code("./config/TOMTOM-Country_city_list_rev.csv")
-    cities = city_df.to_numpy()
-    for line in cities:
-        ccode = line[1]
-        city = line[2]
-        print(f"processing {ccode} {city}")
-        res_df = url_to_dataframe(ccode, city)
-        res_df.to_csv(f'./{RES_DIR}/{ccode}_{city}.csv', index=False)
+    # yet another way to get the city code.
+    # It can hand UAE
+    # cities = ranking_log_to_cities('./config/log')
+
+    cities = get_city_code("./config/TOMTOM-Country_city_list_rev.csv")
+
+    for ccode, city in cities:
+        res_file_name = f'{ccode}_{city}.csv'
+        if res_file_name in os.listdir(f'./{RES_DIR}'):
+            print(f'{res_file_name} has been processed')
+            continue
+        try:
+            res_df = url_to_dataframe(ccode, city)
+            res_df.to_csv(f'./{RES_DIR}/{res_file_name}', index=False)
+        except RuntimeError:
+            print(f"processing {res_file_name} Failed!")
