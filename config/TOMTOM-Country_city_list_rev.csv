@@ -1,0 +1,416 @@
+,Alpha-3 code,City,Country
+0,RUS,moscow,Russia
+1,IND,mumbai,India
+2,COL,bogota,Colombia
+3,PHL,manila,Philippines
+4,TUR,istanbul,Turkey
+5,IND,bengaluru,India
+6,UKR,kyiv,Ukraine
+7,IND,new-delhi,India
+8,RUS,novosibirsk,Russia
+9,THA,bangkok,Thailand
+10,UKR,odessa,Ukraine
+11,RUS,saint-petersburg,Russia
+12,UKR,kharkiv,Ukraine
+13,POL,lodz,Poland
+14,PER,lima,Peru
+15,IND,pune,India
+16,CHN,chongqing,China
+17,ROU,bucharest,Romania
+18,JPN,tokyo,Japan
+19,RUS,samara,Russia
+20,IRL,dublin,Ireland
+21,UKR,dnipro,Ukraine
+22,TWN,taipei,Taiwan
+23,BRA,recife,Brazil
+24,ISR,tel-aviv,Israel
+25,CHN,changchun,China
+26,POL,krakow,Poland
+27,RUS,yekaterinburg,Russia
+28,MEX,mexico-city,Mexico
+29,EGY,cairo,Egypt
+30,IDN,jakarta,Indonesia
+31,POL,wroclaw,Poland
+32,JPN,osaka,Japan
+33,TWN,taichung,Taiwan
+34,TWN,taoyuan,Taiwan
+35,GRC,athens,Greece
+36,RUS,rostov-on-don,Russia
+37,JPN,nagoya,Japan
+38,TWN,kaohsiung,Taiwan
+39,BRA,rio-de-janeiro,Brazil
+40,TWN,tainan,Taiwan
+41,FRA,paris,France
+42,GBR,edinburgh,United Kingdom
+43,CHL,santiago,Chile
+44,POL,poznan,Poland
+45,RUS,chelyabinsk,Russia
+46,POL,warsaw,Poland
+47,BRA,fortaleza,Brazil
+48,GBR,london,United Kingdom
+49,RUS,omsk,Russia
+50,BRA,salvador,Brazil
+51,CAN,vancouver,Canada
+52,BGR,sofia,Bulgaria
+53,FRA,marseille,France
+54,TUR,izmir,Turkey
+55,RUS,nizhny-novgorod,Russia
+56,HKG,hong-kong,Hong Kong
+57,DEU,berlin,Germany
+58,BRA,sao-paulo,Brazil
+59,ITA,palermo,Italy
+60,DEU,hamburg,Germany
+61,CHE,geneva,Switzerland
+62,NZL,auckland,New Zealand
+63,RUS,kazan,Russia
+64,BEL,brussels,Belgium
+65,POL,gdansk-gdynia-sopot,Poland
+66,TUR,ankara,Turkey
+67,AUS,sydney,Australia
+68,CHN,chengdu,China
+69,RUS,tomsk,Russia
+70,JPN,sapporo,Japan
+71,GBR,hull,United Kingdom
+72,GBR,brighton-and-hove,United Kingdom
+73,BRA,belo-horizonte,Brazil
+74,CHN,shenyang,China
+75,IRL,limerick,Ireland
+76,MYS,kuala-lumpur,Malaysia
+77,ITA,genoa,Italy
+78,ITA,rome,Italy
+79,POL,bydgoszcz,Poland
+80,HUN,budapest,Hungary
+81,NZL,wellington,New Zealand
+82,SGP,singapore,Singapore
+83,POL,szczecin,Poland
+84,USA,los-angeles,United States of America
+85,CHN,zhuhai,China
+86,CHE,zurich,Switzerland
+87,SVK,bratislava,Slovakia
+88,TUR,adana,Turkey
+89,FRA,bordeaux,France
+90,POL,lublin,Poland
+91,FRA,grenoble,France
+92,LTU,vilnius,Lithuania
+93,TUR,antalya,Turkey
+94,CHE,lugano,Switzerland
+95,CHN,changsha,China
+96,FRA,toulon,France
+97,EST,tallinn,Estonia
+98,AUT,vienna,Austria
+99,IRL,cork,Ireland
+100,DEU,wiesbaden,Germany
+101,USA,new-york,United States of America
+102,JPN,kobe,Japan
+103,GBR,belfast,United Kingdom
+104,TUR,bursa,Turkey
+105,LUX,luxembourg,Luxembourg
+106,DEU,nuremberg,Germany
+107,ITA,messina,Italy
+108,FRA,nice,France
+109,NLD,haarlem,Netherlands
+110,DEU,stuttgart,Germany
+111,GBR,bournemouth,United Kingdom
+112,FRA,lyon,France
+113,GBR,reading,United Kingdom
+114,ITA,naples,Italy
+115,CHN,shijiazhuang,China
+116,CHN,beijing,China
+117,NZL,hamilton,New Zealand
+118,BRA,porto-alegre,Brazil
+119,DEU,kassel,Germany
+120,GBR,southampton,United Kingdom
+121,FRA,montpellier,France
+122,ARG,buenos-aires,Argentina
+123,BEL,antwerp,Belgium
+124,CHN,guangzhou,China
+125,PRT,porto,Portugal
+126,NLD,the-hague,Netherlands
+127,TUR,gaziantep,Turkey
+128,DEU,munich,Germany
+129,GBR,liverpool,United Kingdom
+130,CHN,shenzhen,China
+131,ZAF,cape-town,South Africa
+132,DEU,dresden,Germany
+133,TUR,mersin,Turkey
+134,CHN,nanjing,China
+135,ITA,catania,Italy
+136,CZE,prague,Czechia
+137,AUS,melbourne,Australia
+138,PRT,lisbon,Portugal
+139,ITA,bari,Italy
+140,USA,miami,United States of America
+141,SWE,stockholm,Sweden
+142,ITA,milan,Italy
+143,AUT,graz,Austria
+144,GBR,bristol,United Kingdom
+145,DEU,kiel,Germany
+146,SVK,kosice,Slovakia
+147,AUT,salzburg,Austria
+148,DEU,leipzig,Germany
+149,GBR,portsmouth,United Kingdom
+150,CHN,xiamen,China
+151,CHN,shanghai,China
+152,GBR,leicester,United Kingdom
+153,POL,bialystok,Poland
+154,GRC,thessaloniki,Greece
+155,GBR,manchester,United Kingdom
+156,GBR,nottingham,United Kingdom
+157,AUS,brisbane,Australia
+158,CHE,basel,Switzerland
+159,CHE,lausanne,Switzerland
+160,LVA,riga,Latvia
+161,FRA,strasbourg,France
+162,SAU,riyadh,Saudi Arabia
+163,ESP,barcelona,Spain
+164,FRA,nantes,France
+165,ZAF,east-london,South Africa
+166,CZE,brno,Czechia
+167,CAN,toronto,Canada
+168,USA,san-francisco,United States of America
+169,ITA,reggio-calabria,Italy
+170,NZL,christchurch,New Zealand
+171,CHN,tianjin,China
+172,FRA,clermont-ferrand,France
+173,NLD,nijmegen,Netherlands
+174,FRA,brest,France
+175,NLD,leiden,Netherlands
+176,FRA,toulouse,France
+177,GBR,cardiff,United Kingdom
+178,AUS,gold-coast,Australia
+179,DEU,bonn,Germany
+180,BEL,leuven,Belgium
+181,ZAF,johannesburg,South Africa
+182,NZL,tauranga,New Zealand
+183,AUS,adelaide,Australia
+184,DEU,cologne,Germany
+185,BRA,curitiba,Brazil
+186,AUS,hobart,Australia
+187,DEU,frankfurt-am-main,Germany
+188,ITA,turin,Italy
+189,CHN,hangzhou,China
+190,NLD,groningen,Netherlands
+191,USA,baton-rouge,United States of America
+192,ESP,granada,Spain
+193,DEU,freiburg,Germany
+194,CAN,montreal,Canada
+195,FRA,rennes,France
+196,NLD,apeldoorn,Netherlands
+197,CHN,fuzhou,China
+198,FRA,lille,France
+199,NOR,oslo,Norway
+200,FRA,le-havre,France
+201,ZAF,pretoria,South Africa
+202,GBR,swansea,United Kingdom
+203,GBR,glasgow,United Kingdom
+204,BEL,mons,Belgium
+205,DEU,ruhr-region-west,Germany
+206,DNK,aarhus,Denmark
+207,GBR,sheffield,United Kingdom
+208,DEU,bremen,Germany
+209,GBR,irmingham-wolverhampton,United Kingdom
+210,GBR,leeds-bradford,United Kingdom
+211,GBR,newcastle-sunderland,United Kingdom
+212,USA,san-jose,United States of America
+213,NLD,rotterdam,Netherlands
+214,NZL,dunedin,New Zealand
+215,DEU,augsburg,Germany
+216,USA,cape-coral-fort-myers,United States of America
+217,NLD,arnhem,Netherlands
+218,AUS,perth,Australia
+219,USA,seattle,United States of America
+220,AUS,newcastle,Australia
+221,USA,honolulu,United States of America
+222,GBR,stoke-on-trent,United Kingdom
+223,DEU,munster,Germany
+224,CAN,ottawa,Canada
+225,ITA,cagliari,Italy
+226,DEU,hannover,Germany
+227,NLD,breda,Netherlands
+228,DEU,dusseldorf,Germany
+229,ARE,dubai,United Arab Emirates
+230,DEU,karlsruhe,Germany
+231,SWE,uppsala,Sweden
+232,NLD,tilburg,Netherlands
+233,USA,riverside,United States of America
+234,CHN,wuxi,China
+235,FRA,rouen,France
+236,USA,bakersfield,United States of America
+237,NLD,amsterdam,Netherlands
+238,USA,tampa,United States of America
+239,GBR,middlesbrough,United Kingdom
+240,NLD,eindhoven,Netherlands
+241,DEU,mannheim,Germany
+242,ESP,santa-cruz-de-tenerife,Spain
+243,ITA,trieste,Italy
+244,USA,austin,United States of America
+245,FRA,orleans,France
+246,DEU,ruhr-region-east,Germany
+247,CAN,london,Canada
+248,DNK,copenhagen,Denmark
+249,BEL,ghent,Belgium
+250,USA,fresno,United States of America
+251,DEU,monchengladbach,Germany
+252,ITA,prato,Italy
+253,ITA,bologna,Italy
+254,SAU,jeddah,Saudi Arabia
+255,CHE,bern,Switzerland
+256,FRA,nancy,France
+257,USA,sacramento,United States of America
+258,USA,boise,United States of America
+259,POL,bielsko-biala,Poland
+260,FIN,turku,Finland
+261,CHN,quanzhou,China
+262,SVN,ljubijana,Slovenia
+263,GBR,coventry,United Kingdom
+264,ITA,pescara,Italy
+265,USA,atlanta,United States of America
+266,KWT,kuwait-city,Kuwait
+267,USA,new-orleans,United States of America
+268,AUT,linz,Austria
+269,ITA,florence,Italy
+270,ESP,valencia,Spain
+271,ITA,livorno,Italy
+272,USA,washington,United States of America
+273,FRA,saint-etienne,France
+274,USA,chicago,United States of America
+275,USA,orlando,United States of America
+276,USA,charleston,United States of America
+277,AUT,innsbruck,Austria
+278,TUR,konya,Turkey
+279,FRA,avignon,France
+280,USA,philadelphia,United States of America
+281,CAN,halifax,Canada
+282,USA,san-diego,United States of America
+283,CAN,winnipeg,Canada
+284,DEU,bielefeld,Germany
+285,CHN,ningbo,China
+286,USA,portland,United States of America
+287,NLD,zwolle,Netherlands
+288,ITA,verona,Italy
+289,USA,las-vegas,United States of America
+290,CHN,suzhou,China
+291,ISL,reykjavik,Iceland
+292,NLD,amersfoort,Netherlands
+293,ESP,palma-de-mallorca,Spain
+294,USA,houston,United States of America
+295,USA,tucson,United States of America
+296,DEU,wuppertal,Germany
+297,GBR,preston,United Kingdom
+298,ESP,santander,Spain
+299,ESP,murcia,Spain
+300,ITA,taranto,Italy
+301,BEL,liege,Belgium
+302,TUR,kayseri,Turkey
+303,BRA,brasilia,Brazil
+304,BEL,namur,Belgium
+305,ZAF,durban,South Africa
+306,USA,mcallen,United States of America
+307,CHN,wuhan,China
+308,FRA,dijon,France
+309,POL,katowice-urban-area,Poland
+310,FRA,le-mans,France
+311,ESP,a-coruna,Spain
+312,BEL,kortrijk,Belgium
+313,ESP,las-palmas,Spain
+314,NLD,utrecht,Netherlands
+315,ESP,madrid,Spain
+316,DNK,odense,Denmark
+317,ESP,seville,Spain
+318,AUS,canberra,Australia
+319,PRT,braga,Portugal
+320,USA,nashville,United States of America
+321,FRA,tours,France
+322,FIN,helsinki,Finland
+323,ESP,malaga,Spain
+324,USA,boston,United States of America
+325,USA,denver,United States of America
+326,FRA,reims,France
+327,ESP,pamplona,Spain
+328,SWE,gothenburg,Sweden
+329,CAN,quebec,Canada
+330,ITA,ravenna,Italy
+331,USA,providence,United States of America
+332,USA,oxnard-thousand-oaks-ventura,United States of America
+333,ITA,parma,Italy
+334,ESP,vitoria-gasteiz,Spain
+335,ITA,reggio-emilia,Italy
+336,ESP,alicante,Spain
+337,USA,greenville,United States of America
+338,SWE,malmo,Sweden
+339,USA,pittsburgh,United States of America
+340,AUS,wollongong,Australia
+341,USA,colorado-springs,United States of America
+342,USA,albuquerque,United States of America
+343,CAN,edmonton,Canada
+344,FIN,tampere,Finland
+345,USA,dallas-fort-worth,United States of America
+346,CZE,ostrava,Czechia
+347,USA,jacksonville,United States of America
+348,USA,salt-lake-city,United States of America
+349,NLD,den-bosch,Netherlands
+350,USA,phoenix,United States of America
+351,ESP,zaragoza,Spain
+352,NOR,bergen,Norway
+353,USA,charlotte,United States of America
+354,ESP,vigo,Spain
+355,CAN,calgary,Canada
+356,USA,virginia-beach,United States of America
+357,USA,san-antonio,United States of America
+358,CHN,dongguan,China
+359,ESP,gijon,Spain
+360,ESP,valladolid,Spain
+361,ITA,padua,Italy
+362,BEL,bruges,Belgium
+363,PRT,coimbra,Portugal
+364,NOR,trondheim,Norway
+365,USA,el-paso,United States of America
+366,ESP,cartagena,Spain
+367,USA,new-haven,United States of America
+368,CAN,kitchener-waterloo,Canada
+369,ESP,cordoba,Spain
+370,ITA,modena,Italy
+371,USA,baltimore,United States of America
+372,USA,raleigh,United States of America
+373,BEL,charleroi,Belgium
+374,PRT,funchal,Portugal
+375,ESP,bilbao,Spain
+376,USA,oklahoma-city,United States of America
+377,USA,birmingham,United States of America
+378,NOR,stavanger,Norway
+379,USA,cincinnati,United States of America
+380,ITA,brescia,Italy
+381,USA,louisville,United States of America
+382,USA,memphis,United States of America
+383,ESP,san-sebastian,Spain
+384,USA,allentown,United States of America
+385,ESP,oviedo,Spain
+386,ZAF,bloemfontein,South Africa
+387,USA,columbus,United States of America
+388,USA,tulsa,United States of America
+389,USA,detroit,United States of America
+390,USA,hartford,United States of America
+391,USA,buffalo,United States of America
+392,USA,columbia,United States of America
+393,USA,albany,United States of America
+394,USA,omaha-council-bluffs,United States of America
+395,USA,knoxville,United States of America
+396,USA,grand-rapids,United States of America
+397,ARE,abu-dhabi,United Arab Emirates
+398,NLD,almere,Netherlands
+399,USA,rochester,United States of America
+400,USA,worcester,United States of America
+401,USA,st.-louis,United States of America
+402,USA,cleveland,United States of America
+403,USA,richmond,United States of America
+404,USA,milwaukee,United States of America
+405,USA,indianapolis,United States of America
+406,USA,minneapolis,United States of America
+407,USA,kansas-city,United States of America
+408,USA,syracuse,United States of America
+409,USA,dayton,United States of America
+410,USA,little-rock,United States of America
+411,USA,winston-salem,United States of America
+412,ESP,cadiz,Spain
+413,USA,akron,United States of America
+414,USA,greensboro-high-point,United States of America
